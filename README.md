@@ -6,12 +6,12 @@ It is a React web application that uses React components, passing state and requ
 
 ### Fonts
 
-[Poppins]{https://fonts.googleapis.com/css?family=Poppins:600}
-[Work Sans]{https://fonts.googleapis.com/css?family=Work+Sans:300,500}
+[Poppins](https://fonts.googleapis.com/css?family=Poppins:600)
+[Work Sans](https://fonts.googleapis.com/css?family=Work+Sans:300,500)
 
 ### Icons
 
-[favicon]{https://s3.amazonaws.com/codecademy-content/programs/react/jammming/favicon.ico}
+[favicon](https://s3.amazonaws.com/codecademy-content/programs/react/jammming/favicon.ico)
 
 
 ## Sections
