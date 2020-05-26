@@ -19,3 +19,4 @@ It is a React web application that uses React components, passing state and requ
 1. Setting up the directory structure and CSS presets.
 2. Creating JavaScript file and exclusive CSS for each component.
 3. Passing the state of search results.
+4. Passing the state of the custom playlist
