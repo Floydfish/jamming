@@ -1,12 +1,12 @@
 import React from 'react';
-import Track from './Track.css';
+import './Track.css';
 
-export class Track extends React.Component {
+class Track extends React.Component {
     renderAction() {
-        if (isRemoval) {
-            <button className="Track-action">-</button>
+        if (this.props.isRemoval) {
+            return <button className="Track-action">-</button>
         } else {
-            <button className="Track-action">+</button>
+            return <button className="Track-action">+</button>
         }
     }
 
@@ -14,11 +14,13 @@ export class Track extends React.Component {
         return(
             <div className="Track">
                 <div className="Track-information">
-                    {/* <h3>a track name </h3> */}
-                    {/* <p>Track artist | Track album here </p> */}
+                    <h3>a track name </h3>
+                    <p>Track artist | Track album here </p>
                 </div>
-                <button className="Track-action"> + or - comes here</button>
+                {this.renderAction()}
             </div>
         )
     }
 }
+
+export default Track
