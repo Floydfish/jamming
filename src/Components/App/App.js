@@ -5,10 +5,10 @@ import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
 
-export class App extends React.Component{
+class App extends React.Component{
   constructor(props) {
     super(props);
-    this.state = { searchResults: [name, artist, album, id] }
+    // this.state = { searchResults: [name, artist, album, id] }
   }
   render() {
     return(
@@ -25,3 +25,5 @@ export class App extends React.Component{
     )
   }
 }
+
+export default App
