@@ -2,7 +2,7 @@
 
 This is a project suggested at the Codecademy Web Development pathway.
 
-It is a React web application that uses React components, passing state and requests with the Spotify API, allowing the users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
+It is a React web application that uses React components, passes state and requests with the Spotify API, allow the users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
 
 ### Fonts
 
@@ -19,4 +19,5 @@ It is a React web application that uses React components, passing state and requ
 1. Setting up the directory structure and CSS presets.
 2. Creating JavaScript file and exclusive CSS for each component.
 3. Passing the state of search results.
-4. Passing the state of the custom playlist
+4. Passing the state of the custom playlist.
+5. Adding a song from the search results track list to the user's custom playlist.
