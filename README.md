@@ -16,8 +16,9 @@ It is a React web application that uses React components, passes state and reque
 
 ## Sections
 
-1. Setting up the directory structure and CSS presets.
-2. Creating JavaScript file and exclusive CSS for each component.
-3. Passing the state of search results.
-4. Passing the state of the custom playlist.
-5. Adding a song from the search results track list to the user's custom playlist.
+1. Created a React Application.
+2. Created Static Components.
+3. Pass down Search Result and Render Result List.
+4. Pass down Playlist to TrackList.
+5. Add Tracks to a Playlist.
+6. Remove Tracks from a Playlist.
