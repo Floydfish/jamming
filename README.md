@@ -22,3 +22,4 @@ It is a React web application that uses React components, passes state and reque
 4. Pass down Playlist to TrackList.
 5. Add Tracks to a Playlist.
 6. Remove Tracks from a Playlist.
+7. Change the Name of a Playlist.
