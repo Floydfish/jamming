@@ -23,4 +23,5 @@ It is a React web application that uses React components, passes state and reque
 5. Add Tracks to a Playlist.
 6. Remove Tracks from a Playlist.
 7. Change the Name of a Playlist.
-8. Create a Method that Saves the Playlist to a User's Account
+8. Create a Method that Saves the Playlist to a User's Account.
+9. Hook up Search Bar to Spotify Search.
