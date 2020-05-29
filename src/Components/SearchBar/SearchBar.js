@@ -29,7 +29,7 @@ class SearchBar extends React.Component {
                     onChange={this.handleTermChange} />
                 <button 
                     className="SearchButton"
-                    onClick={this.search}
+                    // onClick={this.search}
                     >SEARCH
                 </button>
             </div>

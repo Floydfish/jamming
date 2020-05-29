@@ -1,3 +1,6 @@
+require('dotenv').config();
+
+const clientID = process.env.REACT_APP_API_KEY
 let accessToken;
 
 const Spotify = {
