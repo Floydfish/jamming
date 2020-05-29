@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const clientID = process.env.REACT_APP_API_KEY
+const redirectUri = "http://localhost:3000"
 let accessToken;
 
 const Spotify = {
@@ -22,6 +23,9 @@ const Spotify = {
             }, expiresIn * 1000);
             window.history.pushState('Access Token', null, '/');
             return accessToken
+        } else {
+            const accesUrl = `https://accounts.spotify.com/authorize?client_id=${clientID}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
+                                window.location = accesUrl;
         }
     }
 };
