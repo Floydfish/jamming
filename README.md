@@ -27,3 +27,4 @@ It is a React web application that uses React components, passes state and reque
 9. Hook up Search Bar to Spotify Search.
 10. Obtain a Spotify Access Token.
 11. Implement Spotify Search Request.
+12. Save a User's Playlist
