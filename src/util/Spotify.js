@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const clientID = process.env.REACT_APP_API_KEY 
-const redirectUri = "http://localhost:3000/"
+const redirectUri = "http://musicsToSpot.surge.sh"
 let accessToken;
 
 const Spotify = {
