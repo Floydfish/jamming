@@ -28,3 +28,6 @@ It is a React web application that uses React components, passes state and reque
 10. Obtain a Spotify Access Token.
 11. Implement Spotify Search Request.
 12. Save a User's Playlist
+13. Deploy at Surge
+
+Alive and running at [MusicsToSpot](http://musicstospot.surge.sh)
